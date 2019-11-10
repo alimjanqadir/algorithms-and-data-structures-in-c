@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		940A909623331B91004D4731 /* maze_dfs.c in Sources */ = {isa = PBXBuildFile; fileRef = 940A909523331B91004D4731 /* maze_dfs.c */; };
-		9452BCE922BDFD7000032C07 /* full_ordering.c in Sources */ = {isa = PBXBuildFile; fileRef = 9452BCE822BDFD7000032C07 /* full_ordering.c */; };
 		9452BCED22BDFD8B00032C07 /* bomber_game.c in Sources */ = {isa = PBXBuildFile; fileRef = 9452BCEA22BDFD8B00032C07 /* bomber_game.c */; };
-		9452BCEE22BDFD8B00032C07 /* enumeration_algorithm_updated.c in Sources */ = {isa = PBXBuildFile; fileRef = 9452BCEB22BDFD8B00032C07 /* enumeration_algorithm_updated.c */; };
-		9452BCEF22BDFD8B00032C07 /* enumeration_algorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 9452BCEC22BDFD8B00032C07 /* enumeration_algorithm.c */; };
+		9452BCEE22BDFD8B00032C07 /* permutation_brute_force_updated.c in Sources */ = {isa = PBXBuildFile; fileRef = 9452BCEB22BDFD8B00032C07 /* permutation_brute_force_updated.c */; };
+		9452BCEF22BDFD8B00032C07 /* permutation_brute_force.c in Sources */ = {isa = PBXBuildFile; fileRef = 9452BCEC22BDFD8B00032C07 /* permutation_brute_force.c */; };
 		94AB4386228294BB00895973 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 94AB4385228294BB00895973 /* main.c */; };
-		94B23D3622BE08EE0015463C /* full_ordering_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 94B23D3522BE08ED0015463C /* full_ordering_2.c */; };
+		94B23D3622BE08EE0015463C /* permutation_dfs.c in Sources */ = {isa = PBXBuildFile; fileRef = 94B23D3522BE08ED0015463C /* permutation_dfs.c */; };
 		94C2CBB3229FDAD9001F59AB /* stick_puzzle.c in Sources */ = {isa = PBXBuildFile; fileRef = 94C2CBB2229FDAD9001F59AB /* stick_puzzle.c */; };
 /* End PBXBuildFile section */
 
@@ -31,13 +30,12 @@
 
 /* Begin PBXFileReference section */
 		940A909523331B91004D4731 /* maze_dfs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = maze_dfs.c; sourceTree = "<group>"; };
-		9452BCE822BDFD7000032C07 /* full_ordering.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = full_ordering.c; sourceTree = "<group>"; };
 		9452BCEA22BDFD8B00032C07 /* bomber_game.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bomber_game.c; sourceTree = "<group>"; };
-		9452BCEB22BDFD8B00032C07 /* enumeration_algorithm_updated.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = enumeration_algorithm_updated.c; sourceTree = "<group>"; };
-		9452BCEC22BDFD8B00032C07 /* enumeration_algorithm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = enumeration_algorithm.c; sourceTree = "<group>"; };
+		9452BCEB22BDFD8B00032C07 /* permutation_brute_force_updated.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = permutation_brute_force_updated.c; sourceTree = "<group>"; };
+		9452BCEC22BDFD8B00032C07 /* permutation_brute_force.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = permutation_brute_force.c; sourceTree = "<group>"; };
 		94AB4382228294BB00895973 /* algorithms-and-data-structures-in-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "algorithms-and-data-structures-in-c"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94AB4385228294BB00895973 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		94B23D3522BE08ED0015463C /* full_ordering_2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = full_ordering_2.c; sourceTree = "<group>"; };
+		94B23D3522BE08ED0015463C /* permutation_dfs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = permutation_dfs.c; sourceTree = "<group>"; };
 		94C2CBB2229FDAD9001F59AB /* stick_puzzle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stick_puzzle.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,6 +50,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9421940A2377B4A400788EE6 /* problems */ = {
+			isa = PBXGroup;
+			children = (
+				940A909523331B91004D4731 /* maze_dfs.c */,
+				94C2CBB2229FDAD9001F59AB /* stick_puzzle.c */,
+				9421940C2377B61C00788EE6 /* permutation */,
+				9452BCEA22BDFD8B00032C07 /* bomber_game.c */,
+			);
+			path = problems;
+			sourceTree = "<group>";
+		};
+		9421940C2377B61C00788EE6 /* permutation */ = {
+			isa = PBXGroup;
+			children = (
+				9452BCEB22BDFD8B00032C07 /* permutation_brute_force_updated.c */,
+				94B23D3522BE08ED0015463C /* permutation_dfs.c */,
+				9452BCEC22BDFD8B00032C07 /* permutation_brute_force.c */,
+			);
+			path = permutation;
+			sourceTree = "<group>";
+		};
 		94AB4379228294BB00895973 = {
 			isa = PBXGroup;
 			children = (
@@ -71,14 +90,8 @@
 		94AB4384228294BB00895973 /* algorithms-and-data-structures-in-c */ = {
 			isa = PBXGroup;
 			children = (
+				9421940A2377B4A400788EE6 /* problems */,
 				94AB4385228294BB00895973 /* main.c */,
-				9452BCEA22BDFD8B00032C07 /* bomber_game.c */,
-				9452BCEB22BDFD8B00032C07 /* enumeration_algorithm_updated.c */,
-				9452BCEC22BDFD8B00032C07 /* enumeration_algorithm.c */,
-				94C2CBB2229FDAD9001F59AB /* stick_puzzle.c */,
-				9452BCE822BDFD7000032C07 /* full_ordering.c */,
-				94B23D3522BE08ED0015463C /* full_ordering_2.c */,
-				940A909523331B91004D4731 /* maze_dfs.c */,
 			);
 			path = "algorithms-and-data-structures-in-c";
 			sourceTree = "<group>";
@@ -141,11 +154,10 @@
 			files = (
 				94C2CBB3229FDAD9001F59AB /* stick_puzzle.c in Sources */,
 				94AB4386228294BB00895973 /* main.c in Sources */,
-				9452BCEF22BDFD8B00032C07 /* enumeration_algorithm.c in Sources */,
-				9452BCEE22BDFD8B00032C07 /* enumeration_algorithm_updated.c in Sources */,
+				9452BCEF22BDFD8B00032C07 /* permutation_brute_force.c in Sources */,
+				9452BCEE22BDFD8B00032C07 /* permutation_brute_force_updated.c in Sources */,
 				940A909623331B91004D4731 /* maze_dfs.c in Sources */,
-				94B23D3622BE08EE0015463C /* full_ordering_2.c in Sources */,
-				9452BCE922BDFD7000032C07 /* full_ordering.c in Sources */,
+				94B23D3622BE08EE0015463C /* permutation_dfs.c in Sources */,
 				9452BCED22BDFD8B00032C07 /* bomber_game.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

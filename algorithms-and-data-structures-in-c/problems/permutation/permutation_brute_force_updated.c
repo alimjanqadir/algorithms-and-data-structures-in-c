@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-void enumerate(){
+void permutation_brute_force_updated(){
     int a[10],bucket[10],total=0;
     for (a[1]=1; a[1]<=9; a[1]++)
         for (a[2]=1; a[2]<=9; a[2]++)

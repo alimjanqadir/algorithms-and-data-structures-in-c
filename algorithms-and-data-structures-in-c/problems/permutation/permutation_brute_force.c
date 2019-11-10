@@ -6,7 +6,7 @@
 //  Copyright © 2019 Alimjan Qadir. All rights reserved.
 //
 #include <stdio.h>
-void enumerate2(){
+void permutation_brute_force(){
     int a,b,c,d,e,f,g,h,i,total=0;
     for (a=1; a<=9; a++)
         for (b=1; b<=9; b++)
